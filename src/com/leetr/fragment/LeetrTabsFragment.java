@@ -4,8 +4,8 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import leetr.base.R;
-import leetr.ui.TabLayout;
+import com.leetr.R;
+import com.leetr.ui.TabLayout;
 
 import java.util.ArrayList;
 

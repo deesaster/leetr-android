@@ -30,11 +30,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="Android 2.1-update1 Platform" level="application" />
-    <orderEntry type="library" name="android-support-v4" level="project" />
-    <orderEntry type="module" module-name="LeetrUI" />
-    <orderEntry type="library" name="jackson-core-asl-1.8.0.jar" level="project" />
-    <orderEntry type="library" name="jackson-mapper-asl-1.8.0.jar" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="Android 2.1-update1 Platform" level="application" />
+    <orderEntry type="library" exported="" name="android-support-v4" level="project" />
+    <orderEntry type="library" exported="" name="jackson-core-asl-1.8.0.jar" level="project" />
+    <orderEntry type="library" exported="" name="jackson-mapper-asl-1.8.0.jar" level="project" />
   </component>
 </module>
 
