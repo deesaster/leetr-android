@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<leetr.ui.TabLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:leetr="http://schemas.android.com/apk/res/com.leetr.reddtr"
+                    android:id="@+id/tabHolder"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/leetr_grey_tab_bg">
+
+
+    <!--<leetr.ui.TabTextButton android:id="@+id/tab1Btn" android:layout_height="fill_parent"-->
+    <!--android:layout_width="wrap_content" android:text="Press me"/>-->
+
+    <!--<leetr.ui.TabImageButton android:id="@+id/tab2Btn" android:layout_height="fill_parent"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--leetr:unpressedDrawable="@drawable/test_unpressed"-->
+    <!--leetr:pressedDrawable="@drawable/test_pressed"/>-->
+
+</leetr.ui.TabLayout>

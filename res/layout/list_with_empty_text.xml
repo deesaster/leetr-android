@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content">
+
+    <ListView android:id="@+id/listlist"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffffffff"
+              android:drawSelectorOnTop="false"
+              style="Theme.LeetrBase.List"/>
+
+    <TextView android:id="@id/android:empty"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="#FF0000"
+              android:text="No data"/>
+</LinearLayout>

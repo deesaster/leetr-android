@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_namespace">http://schemas.android.com/apk/res/com.leetr</string>
+
+    <!-- Splash Settings -->
+    <bool name="settings_splash_show">true</bool>
+    <integer name="settings_splash_duration_mil">2000</integer>
+    <color name="settings_splash_bg_color">#ffffffff</color>
+    <drawable name="settings_splash_image">@drawable/splash_image</drawable>
+
+    <!-- Header Settings -->
+    <color name="settings_header_bar_bg_color">#ff00ff00</color>
+    <drawable name="settings_header_bar_bg_drawable">@drawable/header_bar_bg</drawable>
+
+    <!-- Dashboard Settings -->
+    <string name="settings_dashboard_activity_class">com.leetr.activity.LeetrDashboardActivity</string>
+
+    <!-- Db Settings -->
+    <string name="settings_db_name">LeetrDb</string>
+    <string-array name="settings_db_create_queries">
+    </string-array>
+
+    <!-- Location Settings -->
+    <bool name="settings_location_enabled">false</bool>
+    <integer name="settings_location_max_update_time">90000</integer><!-- 15 min -->
+    <integer name="settings_location_max_update_distance">100</integer>
+
+</resources>

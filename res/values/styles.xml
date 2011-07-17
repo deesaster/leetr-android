@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Global Style -->
+    <style name="Theme.LeetrBase"
+           parent="@android:style/Theme">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:listViewStyle">@style/Theme.LeetrBase.List</item>
+    </style>
+
+    <!-- List Style -->
+    <style name="Theme.LeetrBase.List"
+           parent="@android:style/Widget">
+        <item name="android:cacheColorHint">@android:color/transparent</item>
+    </style>
+
+    <!-- Action Bar -->
+    <style name="LeetrActionBar"
+           parent="@android:style/Widget">
+        <item name="android:background">@drawable/header_bar_bg</item>
+    </style>
+
+    <style name="LeetrActionBar.Logo"
+           parent="@android:style/Widget">
+        <item name="android:src">@drawable/header_logo</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+
+    <style name="LeetrActionBar.Buttons"
+           parent="@android:style/Widget">
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+</resources>
