@@ -34,6 +34,7 @@
     <orderEntry type="library" exported="" name="android-support-v4" level="project" />
     <orderEntry type="library" exported="" name="jackson-core-asl-1.8.0.jar" level="project" />
     <orderEntry type="library" exported="" name="jackson-mapper-asl-1.8.0.jar" level="project" />
+    <orderEntry type="library" exported="" name="libGoogleAnalytics" level="project" />
   </component>
 </module>
 

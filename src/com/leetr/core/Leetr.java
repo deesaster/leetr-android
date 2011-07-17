@@ -1,6 +1,7 @@
 package com.leetr.core;
 
 import android.content.Context;
+import com.google.android.apps.analytics.GoogleAnalyticsTracker;
 import com.leetr.core.interfaces.ILeetrUtility;
 import com.leetr.core.utility.FileCacheUtility;
 import com.leetr.core.utility.LocationUpdaterUtility;
@@ -27,6 +28,8 @@ public final class Leetr {
     private Context mContext;
     private Class<?>[] mServiceClass;
     private HashMap<Class<?>, ILeetrUtility> mServiceMap;
+
+    private GoogleAnalyticsTracker mGATracker;
 
     public static void initialize(Context context) {
         if (instance == null) {

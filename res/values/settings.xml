@@ -25,4 +25,6 @@
     <integer name="settings_location_max_update_time">90000</integer><!-- 15 min -->
     <integer name="settings_location_max_update_distance">100</integer>
 
+    <!-- Google Analytics -->
+    <string name="settings_google_analytics_code"></string>
 </resources>

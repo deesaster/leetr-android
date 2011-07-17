@@ -20,8 +20,14 @@
         <activity android:name="leetr.base.activities.CrashHelpActivity" android:label="@string/app_name"/>
     </application>
     -->
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- location services-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+
+    <!-- Needed for caching thumbnails -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <!-- Needed for supporting HDPI devices, without this line only drawable-mdpi will be used -->
     <supports-screens android:anyDensity="true"/>
