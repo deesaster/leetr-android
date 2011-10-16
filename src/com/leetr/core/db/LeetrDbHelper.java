@@ -4,7 +4,7 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
-import leetr.base.R;
+import com.leetr.R;
 
 /**
  * Created By: Denis Smirnov <denis@deesastudio.com>
@@ -32,15 +32,16 @@ public class LeetrDbHelper {
         if (createQueries != null && createQueries.length > 0) {
             mDbHelper = new DatabaseHelper(context, dbName, null, createQueries.length, createQueries);
         } else {
-            throw new RuntimeException("check your db create queries");
+            throw new RuntimeException("check your db create queries in settings.xml");
         }
     }
 
-    public void openDb() {
+    public SQLiteDatabase openDb() {
         if (mDbHelper != null) {
             if (mDb == null || !mDb.isOpen()) {
                 mDb = mDbHelper.getWritableDatabase();
             }
+            return mDb;
         } else {
             throw new RuntimeException("Db helper is not initialized, something went wrong.");
         }

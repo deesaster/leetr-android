@@ -3,8 +3,8 @@ package com.leetr.activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.FrameLayout;
+import com.leetr.R;
 import com.leetr.fragment.LeetrActionBarFragment;
-import leetr.base.R;
 
 /**
  * Created By: Denis Smirnov <denis@deesastudio.com>

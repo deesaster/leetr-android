@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import leetr.base.R;
+import com.leetr.R;
 
 /**
  * Created By: Denis Smirnov <denis@deesastudio.com>
